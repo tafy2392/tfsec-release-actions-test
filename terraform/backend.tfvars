@@ -1,0 +1,5 @@
+bucket         = "real-madrid"
+key            = "states/terraform.tfstate"
+dynamodb_table = "terraform-state-lock"
+region         = "eu-west-1"
+encrypt        = "true"
